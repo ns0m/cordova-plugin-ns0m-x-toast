@@ -35,6 +35,7 @@ public class Toast extends CordovaPlugin {
   private android.widget.Toast mostRecentToast;
   private ViewGroup viewGroup;
 
+  private static final boolean IS_AT_LEAST_JELLY_BEAN = Build.VERSION.SDK_INT >= 16;
   private static final boolean IS_AT_LEAST_LOLLIPOP = Build.VERSION.SDK_INT >= 21;
   private static final boolean IS_AT_LEAST_PIE = Build.VERSION.SDK_INT >= 28;
 
@@ -105,7 +106,7 @@ public class Toast extends CordovaPlugin {
           }
 
           // if one of the custom layout options have been passed in, draw our own shape
-          if (styling != null && Build.VERSION.SDK_INT >= 16) {
+          if (styling != null && IS_AT_LEAST_JELLY_BEAN) {
 
             // the defaults mimic the default toast as close as possible
             final String backgroundColor = styling.optString("backgroundColor", "#333333");
@@ -132,7 +133,7 @@ public class Toast extends CordovaPlugin {
             toast.getView().setPadding(horizontalPadding, verticalPadding, horizontalPadding, verticalPadding);
 
             // this gives the toast a very subtle shadow on newer devices
-            if (Build.VERSION.SDK_INT >= 21) {
+            if (IS_AT_LEAST_LOLLIPOP) {
               toast.getView().setElevation(6);
             }
           }
