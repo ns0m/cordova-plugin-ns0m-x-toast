@@ -1,4 +1,6 @@
 .idea/
+*.iml
+*.tgz
 screenshots/
 test/
 issue_template.md
