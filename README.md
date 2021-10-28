@@ -1,3 +1,10 @@
+### Publication-only version of the [EddyVerbruggen/Toast-PhoneGap-Plugin](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin) package with some early fixes. [![Latest Published Version](https://img.shields.io/npm/v/cordova-plugin-ns0m-x-toast)](https://www.npmjs.com/package/cordova-plugin-ns0m-x-toast)
+```
+cordova plugin add cordova-plugin-ns0m-x-toast@2.7.2
+```
+
+---
+
 # PhoneGap Toast plugin
 
 for Android, iOS, WP8, Windows and BlackBerry by [Eddy Verbruggen](http://www.x-services.nl/phonegap-toast-plugin/796)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-x-toast"
+        id="cordova-plugin-ns0m-x-toast"
         version="2.7.2">
 
   <name>Toast</name>
@@ -16,9 +16,8 @@
 
   <keywords>Toast, Notification, Message, Alert</keywords>
 
-  <repo>https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git</repo>
-
-  <issue>https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin/issues</issue>
+  <repo>https://github.com/ns0m/cordova-plugin-ns0m-x-toast</repo>
+  <issue>https://github.com/ns0m/cordova-plugin-ns0m-x-toast/issues</issue>
 
   <engines>
     <engine name="cordova" version=">=3.0.0"/>

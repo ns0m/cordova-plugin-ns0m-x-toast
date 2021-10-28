@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-x-toast",
+  "name": "cordova-plugin-ns0m-x-toast",
   "version": "2.7.2",
   "description": "This plugin allows you to show a Toast. A Toast is a little non intrusive buttonless popup which automatically disappears.",
   "cordova": {
-    "id": "cordova-plugin-x-toast",
+    "id": "cordova-plugin-ns0m-x-toast",
     "platforms": [
       "ios",
       "android",
@@ -12,10 +12,8 @@
       "blackberry10"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git"
-  },
+  "repository": "github:ns0m/cordova-plugin-ns0m-x-toast",
+  "bugs": "https://github.com/ns0m/cordova-plugin-ns0m-x-toast/issues",
   "keywords": [
     "Toast",
     "Notification",
@@ -28,16 +26,12 @@
     "cordova-windows",
     "cordova-blackberry10"
   ],
+  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
+  "license": "MIT",
   "engines": [
     {
       "name": "cordova",
       "version": ">=3.0.0"
     }
-  ],
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin/issues"
-  },
-  "homepage": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin#readme"
+  ]
 }
